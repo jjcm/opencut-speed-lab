@@ -9,6 +9,7 @@
     "dev": "vite dev --port 5173",
     "build": "vite build",
     "preview": "vite preview",
+    "compress-proxy": "node scripts/compress-proxy.mjs",
     "test": "vitest run",
     "deploy": "bun run build && wrangler deploy"
   },
